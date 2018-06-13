@@ -1,0 +1,17 @@
+---
+driver:
+  name: docker
+#  dockerfile: test/Dockerfile
+  provision_command: mkdir -p /var/run/sshd | bash
+
+provisioner:
+  name: chef_solo
+  require_chef_omnibus: 12
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    run_list: recipe[networking-basic::default]
+    attributes:

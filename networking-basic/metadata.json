@@ -1,0 +1,41 @@
+{
+  "name": "networking-basic",
+  "description": "Install Basic Networking Tools and Utilities on Debian, Centos RedHat and Ubuntu.",
+  "long_description": "NETWORKING-BASIC COOKBOOK\n=========================\n[![Build Status](https://secure.travis-ci.org/arktos65/networking-basic.png)](http://travis-ci.org/arktos65/networking-basic)\n\n## Description\n\nInstall Basic Networking Tools and Utilities for Debian, Ubuntu, CentOS, and Redhat.\n\n\n## lsof\n\nLsof is a Unix-specific diagnostic tool. Its name stands for LiSt Open Files, and it does just that. It lists information about any files that are open, by processes currently running on the system.\n\n\n## iptables\n\nAdministration tools for packet filtering and NAT. These are the user-space administration tools for the Linux kernel's netfilter and iptables. netfilter and iptables provide a framework for stateful and stateless packet filtering, network and port address translation, and other IP packet manipulation. The framework is the successor to ipchains.\n\n\n## jwhois\n\nImproved Caching Whois client\nGNU jwhois is an Internet Whois client that queries hosts for information according to RFC 954 - NICNAME/WHOIS. JWHOIS is configured via a configuration file that contains information about all known Whois servers. Upon execution, the host to query is selected based on the information in the configuration file.\n\n## whois\n\nThis is a new whois (RFC 3912) client rewritten from scratch. It is inspired from and compatible with the usual BSD and RIPE whois(1) programs. It is intelligent and can automatically select the appropriate whois server for most queries.\n\n\n## curl\n\nGet a file from an HTTP, HTTPS or FTP server. Curl is a client to get files from servers using any of the supported protocols. The command is designed to work without user interaction or any kind of interactivity.\n\n\n## wget\n\nWget is a network utility to retrieve files from the Web using http(s) and ftp, the two most widely used Internet protocols. \nIt works non-interactively, so it will work in the background, after having logged off. \nThe program supports recursive retrieval of web-authoring pages as well as ftp sites -- you can use wget to make mirrors of archives and home pages or to travel the Web like a WWW robot.\n\n\n## rsync\n\nRsync is a program that allows files to be copied to and from remote machines in much the same way as rcp.  It has many more options than rcp, and uses the rsync remote-update protocol to greatly speed up file transfers when the destination file already exists. \n\n\n## jnettop\n\nView hosts/ports taking up the most network traffic jNettop captures traffic coming across the host it is running on and displays streams sorted by bandwidth they use. Result is a nice listing of communication on network by host and port, how many bytes went through this transport and the bandwidth it is consuming.\n\n\n## nmap\n\nNmap is a utility for network exploration or security auditing. It supports ping scanning (determine which hosts are up), many port scanning techniques, version detection (determine service protocols and application versions listening behind ports), and TCP/IP fingerprinting (remote host OS or device identification). Nmap also offers flexible target and port specification, decoy/stealth scanning, sunRPC scanning, and more. Most Unix and Windows platforms are supported in both GUI and commandline modes. Several popular handheld devices are also supported, including the Sharp Zaurus and the iPAQ.\n\n\n## traceroute\n\nTraceroute tracks the route packets taken from an IP network on their way to a given host. It utilizes the IP protocol's time to live (TTL) field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to the host.\n\n\n## ethtool\n\nDisplay or change Ethernet device settings.\n\n\n## iproute\n\nNetworking and traffic control tools.\n\n\n## iputils-ping\n\nTools to test the reachability of network hosts.\n\n\n## netcat-openbsd\n\nTCP/IP swiss army knife.\n\n\n## tcpdump\n\nA powerful tool for network monitoring and data acquisition.\n\n\n## elinks\n\nAdvanced text-mode WWW browser. \n\n\n## lynx\n\nText-mode WWW Browser.\n\n\n\n## Thanks:\n\n  - Tim Smith [tim.smith[AT]webtrends.com]\n\n",
+  "maintainer": "Sean M. Sullivan",
+  "maintainer_email": "sean@pulselocker.com",
+  "license": "Apache-2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "redhat": ">= 0.0.0"
+  },
+  "dependencies": {
+    "apt": ">= 0.0.0"
+  },
+  "providing": {
+
+  },
+  "attributes": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.0",
+  "source_url": "https://github.com/arktos65/networking-basic",
+  "issues_url": "https://github.com/arktos65/networking-basic/issues",
+  "privacy": false,
+  "chef_versions": [
+    [
+      "~> 12"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

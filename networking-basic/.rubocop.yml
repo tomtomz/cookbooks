@@ -1,0 +1,19 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - lib/kitchen/driver/*
+    - lib/kitchen/driver/docker/*
+    - Vagrantfile
+  TargetRubyVersion: 2.3
+AlignParameters:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+LineLength:
+  Max: 200
+
+StringLiterals:
+  Enabled: false
