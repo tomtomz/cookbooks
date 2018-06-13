@@ -1,0 +1,3 @@
+Package: <%= @pkg_name %>
+Pin: version <%= node['chef_utils']['chef-client']['version'] %>*
+Pin-Priority: 1001
