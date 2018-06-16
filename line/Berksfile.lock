@@ -1,0 +1,14 @@
+DEPENDENCIES
+  line
+    path: .
+    metadata: true
+  spectest
+    path: spec/fixtures/cookbooks/spectest
+  test
+    path: test/fixtures/cookbooks/test
+
+GRAPH
+  line (2.0.1)
+  spectest (0.0.0)
+  test (0.1.0)
+    line (>= 0.0.0)
